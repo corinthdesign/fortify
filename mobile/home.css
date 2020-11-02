@@ -1,0 +1,202 @@
+.spacer {
+  height: 100px;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-weight: 200;
+  text-align: center;
+  color: #000;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.75em;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(209, 54%, 54%);
+  letter-spacing: 0.15em;
+}
+
+p {
+  font-size: 3em;
+}
+
+.heroImage {
+  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.5), rgba(40, 40, 40, 0.5)), url("images/sprout.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 5% 0 0 0;
+  width: 100vw;
+  min-height: 1080px;
+  height: 80vh;
+}
+
+.heroHead h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: .3em;
+  text-align: center;
+  color: #fff;
+}
+
+.heroImage div {
+  position: relative;
+  margin: 0 auto 10% auto;
+  padding: 30% 0 40% 0;
+}
+
+.heroImage button {
+  position: relative;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+  border-radius: 40000px;
+  background-color: hsl(209, 54%, 54%);
+  border: transparent;
+  width: 100%;
+  min-width: 150px;
+  padding: 10% 5%;
+  margin: 0 auto;
+  transition: all 0.2s cubic-bezier(.19,-0.58,.72,1.54);
+  cursor: pointer;
+}
+;
+.heroImage button:active{
+  background-color: rgba(51, 51, 51, 1);
+}
+
+.container {
+  display: block;
+  position: static;
+  width: 100%;
+  height: auto;
+  padding: 100px 200px;
+  margin: 0 auto;
+}
+
+.imageContainer{
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#about h1 {
+  width: 100%;
+  font-size: 5em;
+  padding: 1em;
+  height: auto;
+}
+
+#about {
+  background-color: #fff;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#about iframe {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  height: 30vh;
+  width: 100vw;
+  z-index: 100;
+}
+
+#attentionGrabber {
+  width: 100%;
+  padding: 5em .5em;
+  margin: 0 auto;
+  text-align: center;
+  background-image: linear-gradient(to top, hsl(209, 54%, 54%), hsl(209, 54%, 64%));
+  background-attachment: fixed;
+}
+
+#attentionGrabber h2, #attentionGrabber h3 {
+  color: #fff;
+  font-size: 5em;
+}
+
+.table {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  background-image: linear-gradient(to bottom, rgba(75, 75, 75, 1), rgba(31, 31, 31, 1))
+}
+
+.table td {
+  width: 100%;
+}
+
+.tableImage {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.tableImage img {
+  width: 100%;
+  height: auto;
+}
+
+.tableInfo {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.07em;
+  display: block;
+  margin: 0 auto;
+  padding: 0 10%;
+  text-align: center;
+}
+
+h5 button {
+  background: #fff;
+  color: hsl(209, 54%, 54%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  padding: 1.5em .5em;
+  margin: 0 auto;
+  transition: all 0.2s cubic-bezier(.19,-0.58,.72,1.54);
+  cursor: pointer;
+  border: none;
+}
+
+h5 button:active {
+  background-color: rgba(51, 51, 51, 1);
+}

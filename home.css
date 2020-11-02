@@ -1,0 +1,221 @@
+4.spacer {
+  height: 100px;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+  color: #000;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(209, 54%, 54%);
+  letter-spacing: 0.15em;
+}
+
+.heroImage {
+  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.5), rgba(40, 40, 40, 0.5)), url("images/sprout.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding: 5% 0% 0% 0%;
+  width: 100vw;
+  min-height: 1080px;
+  height: 100vh;
+}
+
+.heroHead h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7em;
+  text-transform: uppercase;
+  line-height: .3em;
+  text-align: center;
+  color: #fff;
+}
+
+.heroImage div {
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+.heroImage button {
+  position: relative;
+  color: #000;
+  font-family: "Bungee Shade", sans-serif;
+  font-size: 5em;
+  text-transform: uppercase;
+  background-color: /*hsl(209, 54%, 54%)*/ #fff;
+  border-radius: 100000px;
+  border: /*transparent*/ 5px #fff;
+  width: 60vw;
+  top: -.65em;
+  cursor: pointer;
+  min-width: 120px;
+  padding: .5em 0px;
+  margin: 0px 20vw;
+  border: 5px solid #fff;
+  transition: all 0.2s cubic-bezier(.19,-0.58,.72,1.54);
+  cursor: pointer;
+}
+
+.heroImage button:hover{
+  width: 60vw;
+  color: hsl(209, 54%, 54%);
+  min-width: 150px;
+  border: 5px solid hsl(209, 54%, 54%);
+  margin: 0px 20vw;
+}
+
+.container {
+  display: block;
+  position: static;
+  width: 100%;
+  height: auto;
+  padding: 100px 200px;
+  margin: 0 auto;
+}
+
+.imageContainer{
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#about h1 {
+  width: 50%;
+  margin: 0 25%;
+  padding: 0 0 50px 0;
+  min-width: 300px;
+  height: auto;
+}
+
+#about {
+  background-color: #fff;
+}
+
+#about iframe {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  height: 60vh;
+  width: 45vw;
+  min-height: 315px;
+  z-index: 100;
+}
+
+.videoShell {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 30px;
+  width: 45vw;
+  overflow: hidden;
+}
+
+#attentionGrabber {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: linear-gradient(to top, hsl(209, 54%, 54%), hsl(209, 54%, 64%));
+  background-attachment: fixed;
+}
+
+#attentionGrabber h2, #attentionGrabber h3 {
+  color: #fff;
+}
+
+.table {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  min-width: 500px;
+  padding: 4% 20%;
+  background-image: linear-gradient(to bottom, rgba(75, 75, 75, 1), rgba(31, 31, 31, 1))
+}
+
+.table tr {
+  height: auto;
+  width: auto;
+}
+
+.table td {
+  width: 30%;
+}
+
+.tableImage {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 10px 0 10px;
+  text-align: center;
+}
+
+.tableImage img {
+  width: 100%;
+  height: auto;
+}
+
+.tableInfo {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.07em;
+  display: block;
+  margin: 0 auto;
+  padding: 0 50px;
+  text-align: center;
+}
+
+h5 button {
+  border-radius: 4000px;
+  background: #fff;
+  color: hsl(209, 54%, 54%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  width: 50%;
+  min-width: 120px;
+  padding: 20px 20px;
+  margin: 0 25%;
+  transition: all 0.2s cubic-bezier(.19,-0.58,.72,1.54);
+  cursor: pointer;
+  border: none;
+}
+
+h5 button:hover {
+  width: 60%;
+  min-width: 150px;
+  margin: 0 20%;
+}

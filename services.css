@@ -1,0 +1,176 @@
+h1 {
+  font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  color: #000;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  font-weight: 200;
+  text-align: center;
+  color: #000;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(209, 54%, 54%);
+  letter-spacing: 0.15em;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  color: rgba(51, 51, 51, 1);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(51, 51, 51, 1);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+li {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.25em 0;
+  color: rgba(51, 51, 51, 1);
+  transition: all 0.2s ease;
+}
+
+#serviceItems a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.25em 0;
+  transition: all 0.2s ease;
+}
+
+.container ul {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#serviceItems li {
+  color: rgba(51, 51, 51, 1);
+}
+
+#serviceItems li:hover {
+  color: hsl(209, 54%, 54%);
+}
+
+.container {
+  display: block;
+  position: static;
+  width: 100%;
+  height: auto;
+  padding: 100px 200px;
+  margin: 0 auto;
+}
+
+.container p {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#attentionGrabber {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(to top, hsl(209, 54%, 54%), hsl(209, 54%, 64%));
+  background-attachment: fixed;
+}
+
+#attentionGrabber h2, #attentionGrabber h3, #attentionGrabber h4, #attentionGrabber p {
+  color: #fff;
+}
+
+#attentionGrabber h3 {
+  border-bottom: 1px #fff solid;
+}
+
+h5 button {
+  border-radius: 4000px;
+  background: #fff;
+  color: hsl(209, 54%, 54%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  width: 50%;
+  min-width: 120px;
+  padding: 20px 20px;
+  margin: 0 25%;
+  transition: all 0.2s cubic-bezier(.19,-0.58,.72,1.54);
+  cursor: pointer;
+  border: none;
+}
+
+h5 button:hover {
+  width: 60%;
+  min-width: 150px;
+  margin: 0 20%;
+}
+
+#servicesAbout {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(230, 230, 230, 1));
+  background-attachement: fixed;
+}
+
+#flower {
+  width: 100%;
+  height: 35em;
+  background-image: url("images/sunriseFlower.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#flower h2 {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(51, 51, 51, 0.5);
+}

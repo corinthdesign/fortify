@@ -1,0 +1,244 @@
+h1 {
+  font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  color: #000;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10em;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8em;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  font-weight: 200;
+  text-align: center;
+  color: #000;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(209, 54%, 54%);
+  letter-spacing: 0.15em;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  color: rgba(51, 51, 51, 1);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(51, 51, 51, 1);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+li {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.25em 0;
+  color: rgba(51, 51, 51, 1);
+}
+
+.container {
+  display: block;
+  position: static;
+  width: 100%;
+  height: auto;
+  padding: 2em 3em;
+  margin: 0 auto;
+}
+
+.container p {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#attentionGrabber {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(to top, hsl(209, 54%, 54%), hsl(209, 54%, 64%));
+  background-attachment: fixed;
+}
+
+#attentionGrabber h2, #attentionGrabber h3, #attentionGrabber h4, #attentionGrabber p {
+  color: #fff;
+}
+
+#attentionGrabber h3 {
+  border-bottom: 1px #fff solid;
+}
+
+h5 button {
+  border-radius: 4000px;
+  background: #fff;
+  color: hsl(209, 54%, 54%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  width: 50%;
+  min-width: 120px;
+  padding: 20px 20px;
+  margin: 0 25%;
+  transition: all 0.2s cubic-bezier(.19,-0.58,.72,1.54);
+  cursor: pointer;
+  border: none;
+}
+
+h5 button:hover {
+  width: 60%;
+  min-width: 150px;
+  margin: 0 20%;
+}
+
+#servicesAbout {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(230, 230, 230, 1));
+  background-attachement: fixed;
+  padding-top: 15em;
+}
+
+#servicesAbout p {
+  padding: 20px 0;
+}
+
+#servicesAbout button {
+  position: relative;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  background-color: hsl(209, 54%, 54%);
+  border-radius: 4000px;
+  border: transparent;
+  width: 80%;
+  min-width: 120px;
+  padding: 1em;
+  margin: 30px 10%;
+  transition: all 0.2s cubic-bezier(.19,-0.58,.72,1.54);
+  cursor: pointer;
+}
+
+#servicesAbout button:active {
+  width: 80%;
+  min-width: 120px;
+  margin: 30px 10%;
+  background-color: rgba(51, 51, 51, 1);
+}
+
+#smallButton button {
+  position: relative;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  background-color: rgba(51, 51, 51, 1);
+  border-radius: 4000px;
+  border: transparent;
+  width: 60%;
+  min-width: 60px;
+  padding: 1em;
+  margin: 0 20%;
+  transition: all 0.2s cubic-bezier(.19,-0.58,.72,1.54);
+  cursor: pointer;
+}
+
+#smallButton button:active {
+  background-color: hsl(209, 54%, 54%);
+  min-width: 60px;
+  width: 60%;
+  padding: 1em;
+  margin: 0 20%;
+}
+
+#coupleWalking {
+  width: 100%;
+  height: 35em;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/coupleWalking.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#coupleWalking h2 {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(51, 51, 51, 0.5);
+}
+
+#scriptures {
+  background-image: linear-gradient(to top, rgba(200, 200, 200, 1), rgba(200, 200, 200, 1));
+  text-shadow: 0 0 30px rgba(255, 254, 242, 1);
+}
+
+#scriptures p {
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5em;
+  padding: 2em;
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 1px rgba(51, 51, 51, .6) solid;
+}
+
+#founders {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20%;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(220, 220, 220, 1), rgba(255, 255, 255, 1));
+}
+
+#founders img {
+  width: 40%;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 0 35px rgba(51, 51, 51, .5);
+}
+
+#founders p, #founders h1{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 0.5em 30px;
+  font-size: 25px;
+}
+
+#founders h1 {
+  font-weight: 500;
+}

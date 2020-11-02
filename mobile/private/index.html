@@ -1,0 +1,126 @@
+<!doctype HTML>
+<html>
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139701347-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139701347-5');
+</script>
+
+<script type="text/javascript"> if (screen.width > 699) {document.location = "../index";}</script>
+
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="home.css">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Leckerli+One|Emblema+One|Josefin+Sans:200,300,400,700|Montserrat:200,300,400,700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/php/mobile_redirect.php"></script>
+<script src="js/nav.js"></script>
+</head>
+<body>
+<!--Page Fade-In Script. Must be directly after <body> opening tag.-->
+<script> document.body.className = 'fade'; </script>
+
+  <!--Off Canvas Menu Expand Button-->
+  <button class="offcanvas-toggle"></button><div class="menubar"></div>
+<!---------Off-Canvas Menu----------->
+<div class="offcanvas">
+    <a style="padding-top: 5.5em;" href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About us</a>
+    <a id="highlight" href="services.html#contactUs">Contact Us</a>
+    <a href="https://www.facebook.com/fortifyllc/"><img src="images/FBicon.png" height=10% width=10% style="position: relative; top: 50px;"></a>
+</div>
+
+<!--------------BODY----------------->
+<!--All content must be placed within the "canvas" class in order to move with the expansion of the off-canvas menu-->
+<div class="canvas">
+
+
+  <!--Content-->
+  <div class="content">
+    <div class="heroImage">
+      <!--div class="heroHead">
+        <h1 style="font-family: 'Emblema One', 'Montserrat', sans-serif; font-size: 8.333em;">Repair</h1>
+        <h1 style="font-family: 'Bungee Shade', 'Montserrat', sans-serif;">Rebuild</h1>
+        <h1 style="font-family: 'Leckerli One', 'Montserrat', sans-serif; font-size: 16.667em; text-transform: capitalize; transform: rotate(-4deg) translateY(-.30em);">Restore</h1>
+      </div-->
+      <div class="heroHead">
+        <h1 style="font-family:'Work Sans', sans-serif; text-transform: capitalize; top: 50px; padding: 0 25%; line-height: 1em; font-weight: 500;">Repair. Rebuild. Restore.</h1>
+      </div>
+        <a href="services.html"><button style="width: 80vw; position: relative; top: -20vh; margin: 0 10vw;">Get Started!</button></a>
+    </div>
+    <div class="container" id="about">
+      <h1>We help individuals, couples, and churches in times of transition, crisis, or in need of healing.</h1>
+        <div class="videoShell">
+          <iframe src="https://www.youtube.com/embed/w1DwY_Fl3EU?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+      <div class="container" id="attentionGrabber">
+        <h2 style="display: inline-block;">Don't quit now!</h2><h3 style="position: relative; display: inline-block; left: 12px;">There is hope!</h3>
+      </div>
+      <div class="table">
+        <table>
+          <tr>
+            <td>
+              <div class="tableImage">
+                <img src="images/SwordOfTheSpirit.jpg" height=250px width=auto>
+              </div>
+            <div class="tableInfo" >
+              <h4>Who We Are</h4>
+              <p>Find out about our organization, our mission, and what we can do to offer relational healing and restoration.</p>
+              <h5><a href="about.html"><button>Learn More</button></a></h5>
+            </div>
+          </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="tableImage">
+                <img src="images/BeautyFromAshes.jpg" height=250px width=auto>
+              </div>
+              <div class="tableInfo">
+                <h4>Fortify Your Relationship</h4>
+                <p>Ready to take the next step? You can do it.</p>
+                <h5><a href="services.html"><button>Find Out How</button></a></h5>
+              </div>
+          </td>
+          </tr>
+        </table>
+      </div>
+  </div>
+</div>
+</body>
+
+  <footer>
+   <div class="wrapper">
+     <div class="prefooter">
+       <a href="https://www.facebook.com/fortifyllc/"><img src="images/FBicon.png" height=70em width=70em></a>
+     </div>
+     <div class="footer">
+        <div style="padding: 20px 0 10px 0; letter-spacing: .2em;">
+          <a href="index.html" title="Home">Home</a>
+          <a href="about.html" title="About Us">About</a>
+          <a href="services.html#contactUs" title="Contact">Contact</a>
+        </div>
+     <div style="margin: 0 auto; text-align: center; letter-spacing: .2em;">
+         <p style="display: inline-block; font-size: 2em; padding:0 20px; color: white;">(719) 200-9638</p>
+         <a title="Email Fortify" style="display: inline-block; font-size: 1.5em; padding:0 20px;" href="mailto:office@befortified.life"><p style="color: white;">OFFICE@BEFORTIFIED.LIFE</p></a>
+     </div>
+      <p>Proudly designed in Colorado.</p>
+      <p>2018 Fortify LLC. All rights reserved.</p>
+     </div>
+     </div>
+  </div>
+  </footer>
+</div>
+<!--Event listener for page-fade must be directly before closing </html> tag-->
+<script>document.addEventListener("DOMContentLoaded", function(e) {document.body.className = '';});</script>
+</html>

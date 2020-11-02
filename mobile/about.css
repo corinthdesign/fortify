@@ -1,0 +1,203 @@
+h1 {
+  font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  text-align: center;
+  color: #000;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  font-weight: 200;
+  text-align: center;
+  color: #000;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(209, 54%, 54%);
+  letter-spacing: 0.15em;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  color: rgba(51, 51, 51, 1);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(51, 51, 51, 1);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+li {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.25em 0;
+  color: rgba(51, 51, 51, 1);
+}
+
+.container {
+  display: block;
+  position: static;
+  width: 100%;
+  height: auto;
+  padding: 100px 5%;;
+  margin: 0 auto;
+}
+
+.container p {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#attentionGrabber {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(to top, hsl(209, 54%, 54%), hsl(209, 54%, 64%));
+  background-attachment: fixed;
+}
+
+#attentionGrabber h2, #attentionGrabber h3, #attentionGrabber h4, #attentionGrabber p {
+  color: #fff;
+}
+
+#attentionGrabber h3 {
+  border-bottom: 1px #fff solid;
+}
+
+h5 button {
+  border-radius: 4000px;
+  background: #fff;
+  color: hsl(209, 54%, 54%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  width: 50%;
+  min-width: 120px;
+  padding: 20px 20px;
+  margin: 0 25%;
+  transition: all 0.2s cubic-bezier(.19,-0.58,.72,1.54);
+  cursor: pointer;
+  border: none;
+}
+
+h5 button:hover {
+  width: 60%;
+  min-width: 150px;
+  margin: 0 20%;
+}
+
+#servicesAbout {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(230, 230, 230, 1));
+  background-attachement: fixed;
+}
+
+#servicesAbout p {
+  font-size: 2.5em;
+}
+
+#coupleWalking {
+  width: 100%;
+  margin-top: 10%;
+  height: auto;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/coupleWalking.jpg");
+  background-attachment: fixed;
+  background-size: 160%;
+  background-position: top;
+}
+
+#coupleWalking h2 {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(51, 51, 51, 0.5);
+}
+
+#scriptures {
+  background-image: linear-gradient(to top, rgba(175, 175, 175, 1), rgba(175, 175, 175, 1));
+}
+
+
+
+#scriptures p {
+  font-family: 'Satisfy', cursive;
+  font-size: 4em;
+  color: rgba(255, 255, 255, 1);
+  padding: 1em 0 1em 0;
+  border-bottom: 1px rgba(51, 51, 51, .6) solid;
+}
+
+#founders {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px .25em;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(220, 220, 220, 1), rgba(255, 255, 255, 1));
+}
+
+#founders img {
+  width: 40%;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 0 35px rgba(51, 51, 51, .5);
+}
+
+#founders p, #founders h1{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+}
+
+#founders p {
+  font-size: 2.5em;
+}
+
+#founders h1 {
+  font-size: 3.5em;
+}
+
+#founders h1 {
+  font-weight: 500;
+}
